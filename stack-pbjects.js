@@ -30,6 +30,22 @@ class Stack {
     this.count--;
     const ele = this.stack[this.count];
     delete this.stack[this.counnt];
-    return elemen;
+    return ele;
   }
 };
+
+const stack = new Stack();
+console.log(stack.size());
+console.log(stack.push('VInce Vaugh'));
+console.log(stack.push('Jennifer Anniston'));
+console.log(stack.push('Steve Carrell'));
+console.log(stack.peek());
+console.log(stack.push('Ben Stiller'));
+console.log(stack.peek());
+stack.print();
+console.log(stack.peek());
+console.log(stack.pop());
+stack.print();
+console.log(stack.peek());
+console.log(stack.size);
+
